@@ -113,7 +113,7 @@ public class LinkedList {
              deleteTail();
          }
          else{
-             Node<Integer prev = null;
+             Node<Integer> prev = null;
              Node<Integer> temp = head;
              while (count < pos & temp != null){
                  count++;
